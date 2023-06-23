@@ -1,0 +1,15 @@
+.navbar-nav .nav-item {
+  margin: 0 3rem;
+  cursor: pointer;
+  text-align: start;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.8rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+  font-size: 1.8rem;
+  color: var(--brand-primary);
+}

@@ -1,0 +1,9 @@
+.btn-brand-primary {
+  background-color: var(--brand-primary);
+  color: var(--brand-white);
+  padding: 1rem 2rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0.6rem;
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,30 @@
+.benefits {
+  background-color: #bcb5b525;
+}
+
+.benefits h5 {
+  font-size: 2rem;
+  font-style: normal;
+}
+
+.benefits p {
+  font-size: 1.8rem;
+  line-height: 23.13px;
+}
+
+.benefits .benefit_icons {
+  position: relative;
+}
+
+.benefits .icon {
+  position: absolute;
+  left: 13px;
+  top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .benefits .icon {
+    left: 10px;
+    top: 12px;
+  }
+}

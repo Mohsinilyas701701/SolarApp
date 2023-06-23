@@ -1,0 +1,28 @@
+.team .green_underline {
+  display: inline-block;
+  border-bottom: 4px solid var(--brand-primary);
+  padding-top: 2rem;
+  width: 11.9rem;
+  margin: auto;
+}
+
+.team p {
+  font-size: 1.7rem;
+  line-height: 26.35px;
+}
+
+.team h5 {
+  font-style: italic;
+}
+
+.team .team_dots_image {
+  position: absolute;
+  left: 24px;
+  top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .team .team_dots_image {
+    display: none;
+  }
+}
